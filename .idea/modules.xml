@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/adapter-factory-pattern/adapter-factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/adapter-factory-pattern/adapter-factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/adapter-pattern/adapter-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/adapter-pattern/adapter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/bridge-pattern/bridge-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/bridge-pattern/bridge-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/composite-pattern/composite-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/composite-pattern/composite-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/design-patterns-practice.iml" filepath="$PROJECT_DIR$/design-patterns-practice/design-patterns-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/factory-pattern/factory-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/model-view-controller/model-view-controller.iml" filepath="$PROJECT_DIR$/design-patterns-practice/model-view-controller/model-view-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/proxy-pattern/proxy-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-practice/state-pattern/state-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-practice/state-pattern/state-pattern.iml" />
+    </modules>
+  </component>
+</project>
