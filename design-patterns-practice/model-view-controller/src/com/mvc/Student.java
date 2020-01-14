@@ -8,9 +8,14 @@ package com.mvc;
  * @Version 1.0
  */
 public class Student {
-    // 登记号
+    /**
+     * 登记号
+     */
     private String rollNo;
-    // 姓名
+
+    /**
+     * 姓名
+     */
     private String name;
 
     public String getRollNo() {

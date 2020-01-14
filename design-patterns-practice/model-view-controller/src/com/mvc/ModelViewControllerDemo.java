@@ -3,7 +3,7 @@ package com.mvc;
 /**
  * @Author 李非凡
  * @Description:
- *
+ * MVC模式，数据处理与数据展示分离
  * @Date 2019/7/10 17:28
  * @Version 1.0
  */

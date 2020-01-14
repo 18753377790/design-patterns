@@ -9,7 +9,6 @@ package com.state;
  */
 public class Context {
 
-    //
     private State state;
 
     public Context(){

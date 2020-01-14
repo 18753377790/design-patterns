@@ -10,7 +10,7 @@ package com.factory;
 public class ShapeFactory {
 
     /**
-     * 使用 getShape 方法获取形状类型的对象。
+     * 使用getShape方法获取形状类型的对象。
      * @param shapeType
      * @return
      */
@@ -20,11 +20,11 @@ public class ShapeFactory {
             return null;
         }
         // 根据图形类型创建对应的图形实例对象
-        if(shapeType.equalsIgnoreCase("CIRCLE")){
+        if(ShapeEnum.CIRCLE.getValue().equalsIgnoreCase(shapeType)){
             return new Circle();
-        } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+        } else if(ShapeEnum.RECTANGLE.getValue().equalsIgnoreCase(shapeType)){
             return new Rectangle();
-        } else if(shapeType.equalsIgnoreCase("SQUARE")){
+        } else if(ShapeEnum.SQUARE.getValue().equalsIgnoreCase(shapeType)){
             return new Square();
         }
 

@@ -7,7 +7,7 @@ package com.bridge;
  * @Date 2019/7/10 17:12
  * @Version 1.0
  */
-public class GreenCircle implements DrawAPI{
+public class GreenCircle implements DrawApi{
 
     @Override
     public void drawCircle(int radius, int x, int y) {

@@ -9,17 +9,19 @@ package com.adapter;
  */
 public class AudioPlayer implements MediaPlayer{
 
-    // 实例化媒体适配器
+    /**
+     * 实例化媒体适配器
+     */
     private MediaAdapter mediaAdapter;
 
     @Override
     public void play(String audioType, String fileName) {
         // 播放 mp3 音乐文件的内置支持
-        if (audioType.equalsIgnoreCase("mp3")){
+        if (MediaEnum.MP3.getValue().equalsIgnoreCase(audioType)){
             System.out.println("Playing mp3 file. Name: "+ fileName);
         }
         // mediaAdapter提供了播放其他文件格式的支持
-        else if (audioType.equalsIgnoreCase("vlc") || audioType.equalsIgnoreCase("mp4")){
+        else if (MediaEnum.VLC.getValue().equalsIgnoreCase(audioType) || MediaEnum.MP4.getValue().equalsIgnoreCase(audioType)){
             mediaAdapter = new MediaAdapter(audioType);
             mediaAdapter.play(audioType, fileName);
         }

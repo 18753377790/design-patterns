@@ -7,13 +7,22 @@ package com.bridge;
  * @Date 2019/7/10 17:58
  * @Version 1.0
  */
-public class Circle extends Shape{
+public class Circle extends AbstractShape{
 
-    // x轴坐标
+    /**
+     *  x轴坐标
+     */
+
     private int x;
-    // y轴坐标
+
+    /**
+     * y轴坐标
+     */
     private int y;
-    // 半径
+
+    /**
+     * 半径
+     */
     private int radius;
 
     /**
@@ -21,10 +30,10 @@ public class Circle extends Shape{
      * @param x
      * @param y
      * @param radius
-     * @param drawAPI
+     * @param drawApi
      */
-    public Circle(int x, int y, int radius, DrawAPI drawAPI) {
-        super(drawAPI);
+    public Circle(int x, int y, int radius, DrawApi drawApi) {
+        super(drawApi);
         this.x = x;
         this.y = y;
         this.radius = radius;
@@ -32,6 +41,6 @@ public class Circle extends Shape{
 
     @Override
     public void draw() {
-        drawAPI.drawCircle(radius, x, y);
+        drawApi.drawCircle(radius, x, y);
     }
 }

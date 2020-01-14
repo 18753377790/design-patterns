@@ -10,7 +10,7 @@ package com.state;
 public interface State {
 
     /**
-     *
+     * 动作
      * @param context
      */
     void doAction(Context context);

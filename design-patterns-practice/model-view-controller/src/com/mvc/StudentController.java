@@ -8,9 +8,15 @@ package com.mvc;
  * @Version 1.0
  */
 public class StudentController {
-    // 学生模型
+
+    /**
+     * 学生模型
+     */
     private Student model;
-    // 学生视图
+
+    /**
+     * 学生视图
+     */
     private StudentView view;
 
     public StudentController(Student model, StudentView view){

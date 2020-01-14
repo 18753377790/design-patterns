@@ -7,7 +7,8 @@ package com.bridge;
  * @Date 2019/7/10 17:13
  * @Version 1.0
  */
-public interface DrawAPI {
+public interface DrawApi {
+
     /**
      * 画圆方法，需要半径，x坐标，y坐标
      * @param radius

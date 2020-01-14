@@ -10,7 +10,9 @@ package com.adapter;
  */
 public class MediaAdapter implements MediaPlayer{
 
-    // 实例化高级媒体播放器
+    /**
+     * 实例化高级媒体播放器
+     */
     private AdvancedMediaPlayer advancedMediaPlayer;
 
     /**
@@ -18,18 +20,18 @@ public class MediaAdapter implements MediaPlayer{
      * @param audioType
      */
     public MediaAdapter(String audioType){
-        if (audioType.equalsIgnoreCase("vlc")){
+        if (MediaEnum.VLC.getValue().equalsIgnoreCase(audioType)){
             advancedMediaPlayer = new VlcPlayer();
-        }else if (audioType.equalsIgnoreCase("mp4")){
+        }else if (MediaEnum.MP4.getValue().equalsIgnoreCase(audioType)){
             advancedMediaPlayer = new Mp4Player();
         }
     }
 
     @Override
     public void play(String audioType, String fileName) {
-        if (audioType.equalsIgnoreCase("vlc")){
+        if (MediaEnum.VLC.getValue().equalsIgnoreCase(audioType)){
             advancedMediaPlayer.playVlc(fileName);
-        }else if (audioType.equalsIgnoreCase("mp4")){
+        }else if (MediaEnum.MP4.getValue().equalsIgnoreCase(audioType)){
             advancedMediaPlayer.playMp4(fileName);
         }
     }
