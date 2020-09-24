@@ -11,7 +11,7 @@ public abstract class AbstractHumanFactory {
     /**
      * 创建人类
      * @param c 人种类
-     * @param <T>
+     * @param <T> 泛型，Human类
      * @return 人种
      */
     public abstract <T extends Human> T createHuman(Class<T> c);
