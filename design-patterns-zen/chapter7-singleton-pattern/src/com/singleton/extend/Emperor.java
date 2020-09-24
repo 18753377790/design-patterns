@@ -45,13 +45,13 @@ public class Emperor {
 
     /**
      * 传入皇帝名称，建立一个皇帝对象
-     * @param name
+     * @param name 皇帝名称
      */
     private Emperor(String name) {}
 
     /**
      * 随机获得一个皇帝
-     * @return
+     * @return 皇帝
      */
     public static Emperor getInstance() {
         Random random = new Random();

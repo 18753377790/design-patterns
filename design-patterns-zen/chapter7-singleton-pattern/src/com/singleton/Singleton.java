@@ -23,7 +23,7 @@ public class Singleton {
 
     /**
      * 通过该方法获得实例对象
-     * @return
+     * @return 单例
      */
     public static Singleton getInstance(){
         return SINGLETON;

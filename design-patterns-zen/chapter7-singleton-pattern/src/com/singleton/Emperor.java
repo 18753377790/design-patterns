@@ -23,7 +23,7 @@ public class Emperor {
 
     /**
      * 对外暴露的皇帝
-     * @return
+     * @return 皇帝
      */
     public static Emperor getInstance(){
         return EMPEROR;

@@ -10,7 +10,7 @@ public class MaleFactory implements HumanFactory {
 
     /**
      * 生产出黄人男性
-     * @return
+     * @return 黄人男性
      */
     @Override
     public Human createYellowHuman() {
@@ -19,7 +19,7 @@ public class MaleFactory implements HumanFactory {
 
     /**
      * 生产出白人男性
-     * @return
+     * @return 白人男性
      */
     @Override
     public Human createWhiteHuman() {
@@ -28,7 +28,7 @@ public class MaleFactory implements HumanFactory {
 
     /**
      * 生产出黑人男性
-     * @return
+     * @return 黑人男性
      */
     @Override
     public Human createBlackHuman() {

@@ -12,7 +12,7 @@ public abstract class AbstractHumanFactory {
 
     /**
      * 创建人类
-     * @return
+     * @return 人类
      */
     public abstract Human createHuman();
 }

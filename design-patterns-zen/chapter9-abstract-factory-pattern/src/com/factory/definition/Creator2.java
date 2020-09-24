@@ -10,7 +10,7 @@ public class Creator2 extends AbstractCreator{
 
     /**
      * 只生产产品等级为2的A产品
-     * @return
+     * @return 产品A
      */
     @Override
     public AbstractProductA createProductA() {
@@ -19,7 +19,7 @@ public class Creator2 extends AbstractCreator{
 
     /**
      * 只生产产品等级为2的B产品
-     * @return
+     * @return 产品B
      */
     @Override
     public AbstractProductB createProductB() {

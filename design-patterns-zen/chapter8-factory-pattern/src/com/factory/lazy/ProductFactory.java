@@ -12,20 +12,20 @@ import java.util.Map;
 public class ProductFactory {
 
     /**
-     *
+     * 缓存容器
      */
-    private static final Map<String, Product> prMap = new HashMap<>();
+    private static final Map<String, Product> PR_MAP = new HashMap<>();
 
     /**
-     *
-     * @param type
-     * @return
+     * 创建产品
+     * @param type 产品类型
+     * @return 产品
      */
     public static synchronized Product createProduct(String type) throws Exception {
         Product product = null;
 
-        if (prMap.containsKey(type)) {
-            product = prMap.get(type);
+        if (PR_MAP.containsKey(type)) {
+            product = PR_MAP.get(type);
         }else {
             if ("Product1".equals(type)) {
                 product = new ConcreteProduct1();
@@ -33,7 +33,7 @@ public class ProductFactory {
                 product = new ConcreteProduct2();
             }
             // 同时把对象放到缓存容器中
-            prMap.put(type, product);
+            PR_MAP.put(type, product);
         }
 
         return product;
